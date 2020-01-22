@@ -1,0 +1,73 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -webkit-justify-content: center;
+}
+
+body {
+  font-family: "Avenir", "helvetica neue", helvetica, arial, sans-serif;
+}
+
+.page-bg {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-bg .overlay {
+  transition: opacity 700ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mantra-holder {
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 300px;
+  background-color: #222;
+}
+
+.welcome-message {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.motivation-message {
+  color: #efefef;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+b {
+  color: #d7b265;
+}

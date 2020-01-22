@@ -1,0 +1,11 @@
+{
+  "name": "patricia-chrome",
+  "version": "1.0.0",
+  "description": "A new tab inspiration/task manager extension themed towards Patricia Technologies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Temitope Ilesanmi",
+  "license": "MIT"
+}
