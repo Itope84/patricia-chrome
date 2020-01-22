@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Temitope Ilesanmi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "laravel-mix": "^5.0.1"
+  }
 }

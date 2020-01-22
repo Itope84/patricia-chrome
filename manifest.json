@@ -4,6 +4,6 @@
   "description": "Get motivated by the Patricia Mantra every tab you open!",
   "manifest_version": 2,
   "chrome_url_overrides": {
-    "newtab": "index.html"
+    "newtab": "dist/index.html"
   }
 }
