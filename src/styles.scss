@@ -3,3 +3,26 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.page-bg {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background-image: url('assets/banner.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+
+    .welcome-message {
+        color: #efefef;
+        font-size: 1.5rem;
+    }
+
+    .motivation-message {
+        color: #fff;
+        font-size: 2.0rem;
+    }
+}
