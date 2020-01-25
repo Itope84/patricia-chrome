@@ -11429,6 +11429,24 @@ video {
   font-size: 2rem;
 }
 
+.page-bg input.name-field {
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #efefef;
+  width: 350px;
+}
+
+.page-bg input.name-field:focus {
+  outline: none;
+}
+
+.v-toast {
+  border-left: 5px solid black;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
